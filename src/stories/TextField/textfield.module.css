@@ -1,0 +1,39 @@
+.input-wrapper {
+  box-shadow: 0 0 5px rgba(156, 163, 175, 1);
+  @apply flex rounded-lg gap-2 py-2 px-2 border-transparent outline-none focus:outline-none  transition-all duration-150 ease-linear text-gray-400 bg-white w-full;
+}
+.input-wrapper-disabled {
+  @apply bg-gray-200;
+}
+.input-wrapper-focus {
+  box-shadow: 0 0 5px rgba(2, 132, 254, 1);
+  @apply border-2 border-cla-blue ;
+}
+
+.input-container {
+  @apply flex items-stretch justify-start w-full;
+}
+.input-field {
+  @apply border-transparent text-opacity-95  outline-none focus:outline-none font-normal w-full;
+}
+.input-field:focus {
+  @apply text-cla-blue;
+}
+.valid-input {
+  box-shadow: 0 0 5px rgba(34, 201, 147, 1);
+  @apply border-2 border-cla-green;
+}
+.invalid-input {
+  box-shadow: 0 0 5px rgba(255, 93, 93, 1);
+  @apply border-2 border-cla-red;
+}
+
+.leading-icon{
+  align-self: stretch;
+  display: flex;
+}
+
+.tailing-icon {
+  align-self: stretch;
+  display: flex;
+}
